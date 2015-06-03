@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: andrea
- * Date: 30/05/15
- * Time: 14.31
- */
+
 
 class EvilCorp
 {
