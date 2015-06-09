@@ -24,7 +24,7 @@ class TestCube extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider obfuscation2DataProvider
+     * @dataProvider color2DataProvider
      */
     public function testColor($color)
     {
