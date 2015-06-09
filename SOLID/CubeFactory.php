@@ -8,7 +8,7 @@
 
 namespace SOLID;
 
-require_once 'Cube.php5';
+require_once 'Cube.php';
 /**
  * Class CubeFactory
  * @package SOLID

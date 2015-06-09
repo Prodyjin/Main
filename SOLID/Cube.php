@@ -30,4 +30,4 @@ class Cube {
     {
         return $this->color;
     }
-} 
+}

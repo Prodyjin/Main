@@ -7,9 +7,10 @@
  */
 namespace SOLID;
 
-require_once 'CubeFactory.php5';
 
-class TestCube extends \PHPUnit_Framework_TestCase
+require_once 'CubeFactory.php';
+
+class CubeTest extends \PHPUnit_Framework_TestCase
 {
     public function color2DataProvider()
     {
@@ -24,7 +25,7 @@ class TestCube extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider obfuscation2DataProvider
+     * @dataProvider color2DataProvider
      */
     public function testColor($color)
     {
